@@ -130,7 +130,7 @@ use Moose;
 use String::Util qw/hascontent trim/;
 
 
-our $VERSION = '1.10';
+our $VERSION = '1.20';
 
 
 =head1 METHODS & ATTRIBUTES
