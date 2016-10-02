@@ -716,21 +716,24 @@ sub _normalize {
 B<Date::Manip::Range> only supports English range operators. Translations 
 welcome.
 
-=head1 AUTHOR
-
-Robert Wohlfarth <rbwohlfarth@gmail.com>
-
 =head1 SEE ALSO
 
 L<Date::Manip>
 
-=head1 LICENSE
+=head1 AUTHOR
 
-Copyright (c) 2015  Robert Wohlfarth
+Robert Wohlfarth <rbwohlfarth@gmail.com>
 
-This program is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself. This software comes with NO WARRANTY of any
-kind.
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2016  Robert Wohlfarth
+
+This module is free software; you can redistribute it and/or modify it 
+under the same terms as Perl 5.10.0. For more details, see the full text 
+of the licenses in the directory LICENSES.
+
+This program is distributed in the hope that it will be useful, but 
+without any warranty; without even the implied
 
 =cut
 
