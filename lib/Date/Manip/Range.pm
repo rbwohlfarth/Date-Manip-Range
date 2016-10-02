@@ -720,6 +720,10 @@ welcome.
 
 L<Date::Manip>
 
+=head1 REPOSITORY
+
+L<https://github.com/rbwohlfarth/Date-Manip-Range>
+
 =head1 AUTHOR
 
 Robert Wohlfarth <rbwohlfarth@gmail.com>

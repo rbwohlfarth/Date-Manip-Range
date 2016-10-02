@@ -3,6 +3,7 @@ use inc::Module::Install;
 
 name 'Date-Manip-Range';
 all_from 'lib/Date/Manip/Range.pm';
+repository 'https://github.com/rbwohlfarth/Date-Manip-Range';
 
 requires 'Date::Manip';
 requires 'Moose';
