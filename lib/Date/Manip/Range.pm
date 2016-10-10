@@ -130,7 +130,7 @@ use Moose;
 use String::Util qw/hascontent trim/;
 
 
-our $VERSION = '1.20';
+our $VERSION = '1.21';
 
 
 =head1 METHODS & ATTRIBUTES
@@ -410,11 +410,15 @@ sub printf {
 	$date   //= $self->date_format;
 	$format //= $self->format;
 	
-	sprintf $format, $self->start->printf( $date ), $self->end->printf( $date );
+	no warnings;
+	sprintf $format, 
+		$self->start->printf( $date ), 
+		$self->end->printf( $date )
+	;
 }
 
 
-=item format
+=head3 format
 
 This attributes formats the output of the L</printf> method. It follows the same
 rules as L<sprintf>. The format can have up to two placeholders: one for the 
@@ -443,7 +447,7 @@ has 'format' => (
 );
 
 
-=item date_format
+=head3 date_format
 
 This attribute formats the dates when you call the L</printf> method. It uses 
 the directives defined in 
